@@ -1,0 +1,113 @@
+{
+  "Root":{
+    "Folders":[{
+        "Folders":[],
+        "Name":"+reconstruction",
+        "Files":[{
+            "filename":"src/mp5.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/muscl.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/reconstruction.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/tvd.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/weno3.f90",
+            "enabled":"1"
+          },{
+            "filename":"src/weno5.f90",
+            "enabled":"1"
+          }]
+      }],
+    "Name":"+main (target)",
+    "Files":[{
+        "filename":"src/error.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/flux.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/initialCond.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/main.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/minmod.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/output.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/prmflow.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/residual.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/solrange.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/updSolution.f90",
+        "enabled":"1"
+      },{
+        "filename":"src/wavespeed.f90",
+        "enabled":"1"
+      }]
+  },
+  "Name":"main (target)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":0,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Library Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Include Directory"]
+    },
+    "Target":"target",
+    "Fortran Options":{
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"false",
+      "Cray Pointers":"false",
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Makefile":"Makefile",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link LAPACK":0
+    }
+  }
+}
